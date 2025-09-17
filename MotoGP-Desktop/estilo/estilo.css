@@ -1,0 +1,18 @@
+
+/*UO 295339 Hugo Tejedor Arcoitza*/
+/*Estilos generales para el proyecto MotoGP Desktop*/
+
+/*Especificidad: 001*/
+body {
+  font-family: Tahoma, sans-serif;
+}
+/*Especificidad: 001*/
+h1 {
+  color: #fff;    
+  background-color:#ff3333; 
+  text-transform: uppercase;
+  padding: 2em; 
+  text-align: center;     
+  }
+
+
