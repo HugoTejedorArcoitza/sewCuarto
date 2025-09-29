@@ -1,23 +1,24 @@
 
 /*UO 295339 Hugo Tejedor Arcoitza*/
 /*Estilos generales para el proyecto MotoGP Desktop*/
-/*Red Damask
-#d5643c
+/*Rosewater
+#f8c0c8
 
-Baltic Sea
-#262229
+Ivory
+#efe7d3
 
-Gunsmoke
-#8b9493
+Lilac
+#d3bbdd
 
-Waikawa Gray
-#5f74a3
+Pewter
+#ece3f0
 */
 body {
   font-family: 'Verdana', sans-serif;
-  background-color: #f9f9f9; 
-  color : #262229;           
+  background-color: #ece3f0; 
+  color :rgb(0, 0, 0);           
   font-family: 'Verdana', sans-serif;
+  padding: 1em;
 }
 
 h1, h2{
@@ -26,7 +27,8 @@ h1, h2{
 }
 
 header {
-  background-color: #5f74a3;   
+  background-color: #d3bbdd;  
+  padding: 1em; 
 }
 
 h1 nav a {
@@ -36,6 +38,7 @@ h1 nav a {
 }
 
 section {
-  background-color: #ffffff;
+  background-color: #efe7d3;
   border: 1px solid #8b9493; 
+  padding: 1em;
 }
