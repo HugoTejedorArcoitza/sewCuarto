@@ -18,28 +18,46 @@ body {
   background-color: #ece3f0; 
   color :rgb(0, 0, 0);           
   font-family: 'Verdana', sans-serif;
-  padding: 1em;
+  
 }
 
-h1, h2{
-  font-size: 2em;
-  font-weight: bold;
+header + p {
+  font-size: 0.9em; /* Tamaño de letra más pequeño (relativo) */
+  color: #666666; /* Color gris para diferenciarlo */
+  font-style: italic; /* Opcional: cursiva para destacar */
+
+}
+
+nav a.active {
+    color: rgb(43, 0, 99); 
+    font-weight: bold; 
+    text-decoration: underline; 
 }
 
 header {
   background-color: #d3bbdd;  
-  padding: 1em; 
+   
 }
 
-h1 nav a {
-  color: #ffffff; 
+header nav a:hover {
+  color: #ff6600; 
+  text-decoration: underline; 
+}
+
+header nav a:visited {
+  color: rgb(43, 0, 99); 
+  
+}
+
+header nav a {
+  color: #000000; 
   text-decoration: none; 
-  margin: 0 15px; 
+  
 }
 
 section {
   background-color: #efe7d3;
   border: 1px solid #8b9493; 
-  padding: 1em;
+ 
 }
 
