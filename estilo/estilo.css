@@ -17,7 +17,6 @@ body {
   font-family: 'Verdana', sans-serif;
   background-color: #ece3f0; 
   color :rgb(0, 0, 0);           
-  font-family: 'Verdana', sans-serif;
   
 }
 
@@ -25,6 +24,7 @@ header + p {
   font-size: 0.9em; /* Tamaño de letra más pequeño (relativo) */
   color: #666666; /* Color gris para diferenciarlo */
   font-style: italic; /* Opcional: cursiva para destacar */
+  /*Hereda background color de body*/
 
 }
 
