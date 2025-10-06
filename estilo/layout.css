@@ -3,7 +3,53 @@ header {
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
+    flex-wrap: wrap;
+}
 
-  }
-  
-  
+/* Estilo para el <nav> */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding-right: 20em;
+}
+
+
+/* Estilo para los enlaces del <nav> */
+nav a {
+    flex: 0 1 auto;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* Media Query para dispositivos móviles (320px a 799px) */
+@media (min-width: 320px) and (max-width: 799px) {
+    
+  /*Redifinicion controlada*/
+  header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    /*Redifinicion controlada*/
+    nav {
+        flex-direction: column;
+        padding-right: 0;
+        width: 100%;
+    }
+    
+    /*Redifinicion controlada*/
+    header + p{
+        display: none;
+    }
+    
+    /*Redifinicion controlada*/
+    video, audio {
+        width: 100%;
+        height: auto;
+    }
+}
