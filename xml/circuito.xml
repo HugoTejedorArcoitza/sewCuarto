@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE circuito SYSTEM "circuito.dtd">
+
+<circuito>
+    <nombre>Automotodrom Brno</nombre>
+
+    <longitud unidades="metros">5403</longitud>
+    <anchuraMedia unidades="metros">15</anchuraMedia>
+    <fecha>2025-08-10</fecha>
+    <horaInicio>14:00</horaInicio>
+    <vueltas>20</vueltas>
+    <localidadCercana>Brno</localidadCercana>
+    <pais>República Checa</pais>
+    <patrocinador>Monster Energy</patrocinador>
+
+    <referencias>
+        <referencia>https://www.automotodrombrno.cz/</referencia>
+        <referencia>https://en.wikipedia.org/wiki/Brno_Circuit</referencia>
+        <referencia>https://www.motogp.com/en/circuit/Brno</referencia>
+    </referencias>
+
+    <galeriaFotos>
+        <foto archivo="multimedia/brno_panorama.jpg"/>
+        <foto archivo="multimedia/brno_start_line.jpg"/>
+        <foto archivo="multimedia/brno_curve.jpg"/>
+    </galeriaFotos>
+
+    <galeriaVideos>
+        <video archivo="multimedia/brno_intro.mp4">Introducción al circuito de Brno</video>
+        <video archivo="multimedia/brno_highlights.mp4">Momentos destacados del circuito</video>
+    </galeriaVideos>
+
+    <origen>
+        <coordenada>
+            <longitudGeo>16.5378</longitudGeo>
+            <latitud>49.2144</latitud>
+            <altitud>250</altitud>
+        </coordenada>
+    </origen>
+
+    <tramos>
+        <tramo distancia="500" sector="1">
+            <coordenada>
+                <longitudGeo>14.7650</longitudGeo>
+                <latitud>47.2200</latitud>
+                <altitud>680</altitud>
+            </coordenada>
+        </tramo>
+        <tramo distancia="800" sector="2">
+            <coordenada>
+                <longitudGeo>14.7660</longitudGeo>
+                <latitud>47.2210</latitud>
+                <altitud>685</altitud>
+            </coordenada>
+        </tramo>
+        <tramo distancia="1200" sector="3">
+            <coordenada>
+                <longitudGeo>14.7670</longitudGeo>
+                <latitud>47.2220</latitud>
+                <altitud>690</altitud>
+            </coordenada>
+        </tramo>
+    </tramos>
+
+    <vencedor tiempo="39:45.123">Francesco Bagnaia</vencedor>
+
+    <clasificacion>
+        <piloto posicion="1">Francesco Bagnaia</piloto>
+        <piloto posicion="2">Fabio Quartararo</piloto>
+        <piloto posicion="3">Marc Márquez</piloto>
+	</clasificacion>
+</circuito>
